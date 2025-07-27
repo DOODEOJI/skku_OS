@@ -1,5 +1,3 @@
-# skku_OS
-
 # Projects Included
 
 ## Project 0: Introduction to xv6
