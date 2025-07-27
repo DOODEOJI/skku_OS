@@ -1,5 +1,23 @@
 # skku_OS
 
+# Projects Included
+
+## Project 0: Introduction to xv6
+- **Objective:** Provide hands-on experience with the xv6 operating system.
+- **Grade:** 100/100
+- **Key Features:** 
+  - Clone the xv6 repository.
+  - Boot xv6.
+  - Customize the boot message to display student ID, name, and an optional message.
+
+## Project 1: System Call
+- **Objective:** Implement three new system calls (`getnice`, `setnice`, `ps`) in the xv6 operating system.
+- **Grade:** 100/100
+- **Key Features:** 
+  - `getnice(int pid)`: Retrieves the nice value of a process.
+  - `setnice(int pid, int value)`: Sets the nice value of a process.
+  - `ps(int pid)`: Prints process information, including name, pid, state, and nice value.
+
 ## Project 2: Scheduling
 - **Objective:** Implement the Earliest Eligible Virtual Deadline First (EEVDF) in the xv6 operating system and modify the `ps` system call to display scheduling information.
 - **Grade:** 100/100
